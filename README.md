@@ -6,7 +6,7 @@ Project สอนใช้ Unity ทำเกมผี
 
 ---
 
-## สรุุปเนื้อหาแต่ละ part
+## สรุปเนื้อหาแต่ละ part
 
 ### Part 1: Scene Setup
 - ทดสอบการใช้งาน `Asset Store` และ `Package Manager` เพื่อช่วยในการทำเกม
