@@ -15,6 +15,7 @@ public class Torch : MonoBehaviour
     void Start()
     {
         _lightComponent = transform.GetComponentInChildren<Light>();
+        _lightComponent.intensity = Random.Range(MinIntesity, MaxIntesity); // สุ่มความสว่างของแสง
     }
 
     void Update()
