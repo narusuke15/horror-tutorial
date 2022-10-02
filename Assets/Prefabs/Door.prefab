@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6861924475358228183}
   - component: {fileID: 7736505367344420532}
   - component: {fileID: 1954389628468359408}
+  - component: {fileID: 5622816612268957367}
   m_Layer: 0
   m_Name: doorWing
   m_TagString: Untagged
@@ -116,6 +117,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5622816612268957367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6876032371338221857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c484aee0bb6ed5743991fd48eaa3808c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActionText: {fileID: 0}
 --- !u!1 &6876292413745158345
 GameObject:
   m_ObjectHideFlags: 0

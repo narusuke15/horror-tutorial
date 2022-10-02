@@ -721,8 +721,8 @@ MonoBehaviour:
   maxLookAngle: 50
   lockCursor: 1
   crosshair: 1
-  crosshairImage: {fileID: 21300000, guid: be4ce60e2c9768c44b9b10b9c5258045, type: 3}
-  crosshairColor: {r: 1, g: 1, b: 1, a: 1}
+  crosshairImage: {fileID: 21300000, guid: f5dff1265fa60a34ca05ca1cde179b9b, type: 3}
+  crosshairColor: {r: 1, g: 1, b: 1, a: 0.47058824}
   enableZoom: 1
   holdToZoom: 1
   zoomKey: 324
@@ -732,7 +732,7 @@ MonoBehaviour:
   walkSpeed: 2
   maxVelocityChange: 10
   enableSprint: 1
-  unlimitedSprint: 1
+  unlimitedSprint: 0
   sprintKey: 304
   sprintSpeed: 4
   sprintDuration: 5
@@ -784,7 +784,7 @@ RectTransform:
   m_GameObject: {fileID: 3791915239092715796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 3791915238339749178}
   m_RootOrder: 0
@@ -815,7 +815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.49803922}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -842,6 +842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7832338860460369183}
   - component: {fileID: 458076553984814888}
+  - component: {fileID: 5135767544944229953}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -878,3 +879,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlashlightGO: {fileID: 683150361826438865}
   IsOn: 1
+--- !u!114 &5135767544944229953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8050145488071296948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 134169996aee7234392f965ba0d3c161, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
