@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6849994039338330655}
   - component: {fileID: 6861924475358228183}
   - component: {fileID: 7736505367344420532}
+  - component: {fileID: 1954389628468359408}
   m_Layer: 0
   m_Name: doorWing
   m_TagString: Untagged
@@ -96,6 +97,25 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.9189026, y: 1.9499998, z: 0.04092646}
   m_Center: {x: -0.44891587, y: 0.975, z: -0.01133935}
+--- !u!95 &1954389628468359408
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6876032371338221857}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 881cd11e354d906448b3a44c18eefd50, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6876292413745158345
 GameObject:
   m_ObjectHideFlags: 0
