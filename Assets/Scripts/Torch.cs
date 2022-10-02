@@ -27,7 +27,7 @@ public class Torch : MonoBehaviour
             else
             {
                 _isUp = false;
-                Debug.Log("Down");
+                // Debug.Log("Down");
             }
         }
         else
@@ -37,7 +37,7 @@ public class Torch : MonoBehaviour
             else
             {
                 _isUp = true;
-                Debug.Log("Up");
+                // Debug.Log("Up");
             }
         }
     }
