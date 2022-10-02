@@ -25,20 +25,14 @@ public class Torch : MonoBehaviour
             if (_lightComponent.intensity < MaxIntesity)
                 _lightComponent.intensity += Speed;
             else
-            {
                 _isUp = false;
-                // Debug.Log("Down");
-            }
         }
         else
         {
             if (_lightComponent.intensity > MinIntesity)
                 _lightComponent.intensity -= Speed;
             else
-            {
                 _isUp = true;
-                // Debug.Log("Up");
-            }
         }
     }
 }
