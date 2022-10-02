@@ -20,3 +20,10 @@ Project สอนใช้ Unity ทำเกมผี
 - ศึกษาการทำงานของ `Materials`
 - ลองใส่ `SkyBox`
 - ทดลองการใช้งาน `Particle Effect` เบื้องต้นผ่านการทำ หมอก และ ไฟคบเพลิง
+
+### Part 3: Door Interaction
+- ลองใส่ `prop` ที่เคลื่อนที่ได้และไม่ได้
+- สร้าง fade-in overlay
+- ลองใช้ `Animator` สร้าง Animation เปิดปิดประตู
+- วิธีการใช้งาน `Unity UI` เบื้องต้น
+- เขียนการ interaction กับประตูผ่าน `Raycast`
