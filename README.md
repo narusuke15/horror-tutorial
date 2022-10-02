@@ -13,3 +13,10 @@ Project สอนใช้ Unity ทำเกมผี
 - ลองใช้งาน `FPS Controller`
 - สร้าง prototype ฉาก ด้วย `ProBuilder`
 - ลองจัดแสงเงาเกมผีเบื้องต้นและวิธีการทำให้ฉากมืด
+
+### Part 2: Basic Lighting and Particles
+- อธิบายการใช้งาน `Probuilder` เพิ่มเติม
+- ทำ scripts คุมไฟฉายเปิด/ปิดแบบง่าย
+- ศึกษาการทำงานของ `Materials`
+- ลองใส่ `SkyBox`
+- ทดลองการใช้งาน `Particle Effect` เบื้องต้นผ่านการทำ หมอก และ ไฟคบเพลิง
