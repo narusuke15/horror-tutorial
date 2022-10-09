@@ -16,6 +16,7 @@ public class FlashlightController : MonoBehaviour
 
     void Update()
     {
+        // เปิด/ปิด ไฟฉายตอนกด 'e'
         if (Input.GetKeyDown(KeyCode.F) && _battery > 0)
         {
             Flashlight.Switch(); // เปิด-ปิดไฟฉาย
