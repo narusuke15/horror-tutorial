@@ -4,7 +4,7 @@ using UnityEngine;
 /// <summary>
 /// Scripts ควบคุม interaction และ animation ของประตู
 /// </summary>
-public class Door : MonoBehaviour
+public class Door : MonoBehaviour, IInteractable
 {
     [Header("References")]
     public Animator DoorAnimator; // Animator ที่ควบคุม animation การเปิดปิดของประตู

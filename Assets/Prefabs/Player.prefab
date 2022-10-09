@@ -785,6 +785,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Flashlight: {fileID: 683150360879346064}
+  BatteryBar: {fileID: 0}
+  BatteryDrain: 0.1
+  _isOn: 0
+  _battery: 1
 --- !u!114 &5135767544944229953
 MonoBehaviour:
   m_ObjectHideFlags: 0

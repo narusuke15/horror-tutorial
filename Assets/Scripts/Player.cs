@@ -31,12 +31,12 @@ public class Player : MonoBehaviour
             // check interaction
             if (hit.collider.tag == "Interactable")
             {
-                Door door = hit.transform.GetComponent<Door>(); // ดึง reference ของ component Door จากวันถุทีี่ยิง Ray ชน
-                string interactionText = door.GetInteractionText(); // รับข้อมูล ActionText จากประตู
+                IInteractable interactableObject = hit.transform.GetComponent<IInteractable>(); // ดึง reference ของ component Door จากวันถุทีี่ยิง Ray ชน
+                string interactionText = interactableObject.GetInteractionText(); // รับข้อมูล ActionText จากประตู
                 ActionUICanvasComponent.ShowInteractionUI(interactionText); // แสดง ActionUI ของประตู
                 // สั่งให้เปิดปิดประตูเมื่อกดปุ่ม 'e'
                 if (Input.GetKeyDown(KeyCode.E))
-                    door.Interact();
+                    interactableObject.Interact();
             }
             else
                 ActionUICanvasComponent.HideCanvas(); // พยายามปิด ActionUI Canvas ถ้าวัตถุที่ชนไม่ใช่ interactable
