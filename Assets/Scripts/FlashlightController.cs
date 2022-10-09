@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <Summary>
 /// Class ที่เอาไว้ใช้ควบคุมไฟฉาย
@@ -8,6 +9,7 @@ public class FlashlightController : MonoBehaviour
 {
     [Header("References")]
     public FlashlightPRO Flashlight; // ประกาศตัวแปรเพื่อ Reference ค่า FlashlightPRO ไฟฉายใน Scene
+    public Image BatteryBar;
     [Header("Parameters")]
     public float BatteryDrain = 1f;
 
@@ -28,6 +30,7 @@ public class FlashlightController : MonoBehaviour
         if (_isOn && _battery > 0)
         {
             _battery -= BatteryDrain * Time.deltaTime;
+            BatteryBar.fillAmount = _battery;
             if (_battery <= 0)
             {
                 _battery = 0;
