@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
 {
     [Header("References")]
     public Transform PlayerTransform; // อ้างอิงข้อมูลตำแหน่งจาก component transform
-    public Canvas ActionUICanvas; // text ที่จะขึ้นถ้าเราสามารถเปิดปิดประตูได้
     public ActionUICanvas ActionUICanvasComponent;
 
     [Header("Parameters")]
