@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Flashlight_PRO : MonoBehaviour 
+public class FlashlightPRO : MonoBehaviour 
 {
 	[Space(10)]
 	[SerializeField()] GameObject Lights; // all light effects and spotlight
@@ -24,7 +24,7 @@ public class Flashlight_PRO : MonoBehaviour
 	/// changes the intensivity of lights from 0 to 100.
 	/// call this from other scripts.
 	/// </summary>
-	public void ChangeIntensivity(float percentage)
+	public void ChangeIntensity(float percentage)
 	{
 		percentage = Mathf.Clamp (percentage, 0, 100);
 		spotlight.intensity = (8 * percentage) / 100;
