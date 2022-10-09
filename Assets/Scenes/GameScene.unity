@@ -17792,46 +17792,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 683150360879986328, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_Range
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 683150360879986328, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_Cookie
-      value: 
-      objectReference: {fileID: 2800000, guid: 0137df8e44d324e46a406166632e46e4, type: 3}
-    - target: {fileID: 683150360879986328, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_SpotAngle
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 683150360879986328, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_InnerSpotAngle
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 683150360879986328, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_Shadows.m_Type
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 683150360886244526, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.6712467
-      objectReference: {fileID: 0}
-    - target: {fileID: 683150360886244526, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.17882453
-      objectReference: {fileID: 0}
-    - target: {fileID: 683150360886244526, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.6950962
-      objectReference: {fileID: 0}
-    - target: {fileID: 683150360886244526, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.18517819
-      objectReference: {fileID: 0}
-    - target: {fileID: 683150360886244526, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -92
-      objectReference: {fileID: 0}
     - target: {fileID: 5135767544944229953, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
       propertyPath: ActionUICanvasComponent
       value: 
@@ -17846,7 +17806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7832338860460369183, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 2.546
       objectReference: {fileID: 0}
     - target: {fileID: 7832338860460369183, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
       propertyPath: m_LocalPosition.z
