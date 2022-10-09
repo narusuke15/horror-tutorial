@@ -22,7 +22,6 @@ public class ActionUICanvas : MonoBehaviour
             _canvas.enabled = true;
     }
 
-
     // ซ่อน canvas
     public void HideCanvas()
     {
