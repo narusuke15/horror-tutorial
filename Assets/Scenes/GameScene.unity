@@ -7130,6 +7130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1200446128}
     m_Modifications:
+    - target: {fileID: 2211581843324383244, guid: d052f2d8d68b39843a4dee0b8de94c22, type: 3}
+      propertyPath: ActionUICanvasComponent
+      value: 
+      objectReference: {fileID: 900640611}
     - target: {fileID: 5622816612268957367, guid: d052f2d8d68b39843a4dee0b8de94c22, type: 3}
       propertyPath: Crosshair
       value: 
@@ -7638,8 +7642,9 @@ GameObject:
   - component: {fileID: 900640609}
   - component: {fileID: 900640608}
   - component: {fileID: 900640607}
+  - component: {fileID: 900640611}
   m_Layer: 5
-  m_Name: UICanvas
+  m_Name: ActionUICanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7727,6 +7732,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &900640611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900640606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191a08b794d8b6d4f83aed25f4de5411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActionText: {fileID: 1915621417}
+  Crosshair: {fileID: 1561658740}
 --- !u!1 &980768354
 GameObject:
   m_ObjectHideFlags: 0
@@ -10652,7 +10671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1561658741
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11430,7 +11449,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1915621416
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17792,9 +17811,25 @@ PrefabInstance:
       value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 5135767544944229953, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
+      propertyPath: Crosshair
+      value: 
+      objectReference: {fileID: 1561658740}
+    - target: {fileID: 5135767544944229953, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
+      propertyPath: ActionText
+      value: 
+      objectReference: {fileID: 1915621417}
+    - target: {fileID: 5135767544944229953, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
+      propertyPath: ActionUICanvas
+      value: 
+      objectReference: {fileID: 900640609}
+    - target: {fileID: 5135767544944229953, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
       propertyPath: PlayerTransform
       value: 
       objectReference: {fileID: 2089996018}
+    - target: {fileID: 5135767544944229953, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
+      propertyPath: ActionUICanvasComponent
+      value: 
+      objectReference: {fileID: 900640611}
     - target: {fileID: 7832338860460369183, guid: 16a75397381e4fb449c752d03bc15e42, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -17913,6 +17948,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1200446128}
     m_Modifications:
+    - target: {fileID: 2211581843324383244, guid: d052f2d8d68b39843a4dee0b8de94c22, type: 3}
+      propertyPath: ActionUICanvasComponent
+      value: 
+      objectReference: {fileID: 900640611}
     - target: {fileID: 5622816612268957367, guid: d052f2d8d68b39843a4dee0b8de94c22, type: 3}
       propertyPath: Crosshair
       value: 

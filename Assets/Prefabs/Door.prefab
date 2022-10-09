@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 6861924475358228183}
   - component: {fileID: 7736505367344420532}
   - component: {fileID: 1954389628468359408}
-  - component: {fileID: 5622816612268957367}
+  - component: {fileID: 3261542705468190663}
   m_Layer: 0
   m_Name: doorWing
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,7 +117,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5622816612268957367
+--- !u!114 &3261542705468190663
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c484aee0bb6ed5743991fd48eaa3808c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ActionText: {fileID: 0}
+  DoorAnimator: {fileID: 1954389628468359408}
 --- !u!1 &6876292413745158345
 GameObject:
   m_ObjectHideFlags: 0
