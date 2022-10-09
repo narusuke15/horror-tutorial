@@ -27,3 +27,6 @@ Project สอนใช้ Unity ทำเกมผี
 - ลองใช้ `Animator` สร้าง Animation เปิดปิดประตู
 - วิธีการใช้งาน `Unity UI` เบื้องต้น
 - เขียนการ interaction กับประตูผ่าน `Raycast`
+
+### Part 4: Flashlight
+- ปรับการใช้ไฟฉาย

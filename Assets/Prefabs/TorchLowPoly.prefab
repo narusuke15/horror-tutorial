@@ -110,10 +110,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53816fa35daf9034ebdbd313f25fc899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MinIntesity: 1
-  MaxIntesity: 3
+  MinIntesity: 1.5
+  MaxIntesity: 2.5
   MinSpeed: 0.005
-  MaxSpeed: 0.03
+  MaxSpeed: 0.02
 --- !u!1 &4105184156018471408
 GameObject:
   m_ObjectHideFlags: 0
