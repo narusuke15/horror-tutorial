@@ -11,11 +11,13 @@ public class FlashlightPRO : MonoBehaviour
     private Material ambient_light_material;
     private Color ambient_mat_color;
     private bool is_enabled = false;
+    private float baseIntensity;
 
     void Start()
     {
         // cache components
         spotlight = Lights.transform.Find("Spotlight").GetComponent<Light>();
+        baseIntensity = spotlight.intensity;
         ambient_light_material = Lights.transform.Find("ambient").GetComponent<Renderer>().material;
         ambient_mat_color = ambient_light_material.GetColor("_TintColor");
     }
@@ -27,7 +29,7 @@ public class FlashlightPRO : MonoBehaviour
     public void ChangeIntensity(float percentage)
     {
         percentage = Mathf.Clamp(percentage, 0, 100);
-        spotlight.intensity = (8 * percentage) / 100;
+        spotlight.intensity = (baseIntensity * percentage) / 100;
         ambient_light_material.SetColor("_TintColor", new Color(ambient_mat_color.r, ambient_mat_color.g, ambient_mat_color.b, percentage / 2000));
     }
 
