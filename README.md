@@ -33,3 +33,10 @@ Project สอนใช้ Unity ทำเกมผี
 - เพิ่มระบบแบตเตอรี่
 - ระบบแสดง HUD
 - ระบบเก็บแบตเตอรี่และหัดเขียน `interface`
+
+### Part 5: Rendering
+- upgrade render pipeline จาก built-in เป็น `URP`
+- setup `URP` เบื้องต้น
+- เพิ่มความสวนของฉากด้วยการ `Bake Lighting`
+- ปรับแสงให้วัตถุ dynamic ด้วย `Light Probe`
+- ปิดการ render วัตถุที่ไม่ได้อยู่ในจอเพื่อทำให้เกมลื่นขึ้นด้วย `Occlusion Culling`
