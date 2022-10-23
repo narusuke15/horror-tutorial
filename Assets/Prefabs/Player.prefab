@@ -786,7 +786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Flashlight: {fileID: 683150360879346064}
   BatteryBar: {fileID: 0}
-  BatteryDrain: 0.1
+  BatteryDrain: 0.01
   _isOn: 0
   _battery: 1
 --- !u!114 &5135767544944229953
