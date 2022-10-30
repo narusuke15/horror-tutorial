@@ -112,8 +112,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinIntesity: 1.5
   MaxIntesity: 2.5
-  MinSpeed: 0.005
-  MaxSpeed: 0.02
+  MinSpeed: 0.001
+  MaxSpeed: 0.008
 --- !u!1 &4105184156018471408
 GameObject:
   m_ObjectHideFlags: 0
