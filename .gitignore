@@ -58,3 +58,11 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+Assets/Scenes/GameScene/LightingData.asset
+Assets/Scenes/GameScene/LightingData.asset.meta
+Assets/Scenes/GameScene/Lightmap-0_comp_dir.png
+Assets/Scenes/GameScene/Lightmap-0_comp_dir.png.meta
+Assets/Scenes/GameScene/Lightmap-0_comp_light.exr
+Assets/Scenes/GameScene/Lightmap-0_comp_light.exr.meta
+Assets/Scenes/GameScene/Lightmap-0_comp_shadowmask.png
+Assets/Scenes/GameScene/Lightmap-0_comp_shadowmask.png.meta
