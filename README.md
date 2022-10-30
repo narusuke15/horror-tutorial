@@ -33,3 +33,15 @@ Project สอนใช้ Unity ทำเกมผี
 - เพิ่มระบบแบตเตอรี่
 - ระบบแสดง HUD
 - ระบบเก็บแบตเตอรี่และหัดเขียน `interface`
+
+### Part 5: Rendering
+- ปรับ rendering path จาก built-in เป็น `URP`
+- ใช้ `light baking` ทำให้แสงสวยและลื่น
+- ใช้ `light probe` ใส่แสง bake ให้วัตถุ dynamic
+- เปิด `Occlusion culling` เพื่อปิด object ที่ไม่ได้อยู่ในกล้อง
+
+### Part 6: Sound and Event trigger
+- เสียง `Ambient`
+- ใส่เสียง `Foot step`
+- ทำ `event trigger` Jumpscare
+- ทำ cutscene ด้วย `timeline`
