@@ -3196,17 +3196,9 @@ MonoBehaviour:
   assetGuid: 
   m_Mesh: {fileID: 1796289143}
   m_IsSelectable: 1
-  m_SelectedFaces: 17000000
-  m_SelectedEdges:
-  - a: 92
-    b: 93
-  - a: 94
-    b: 92
-  - a: 93
-    b: 95
-  - a: 95
-    b: 94
-  m_SelectedVertices: 5c0000005d0000005e0000005f000000
+  m_SelectedFaces: 
+  m_SelectedEdges: []
+  m_SelectedVertices: 
 --- !u!4 &81350988
 Transform:
   m_ObjectHideFlags: 0
@@ -4854,7 +4846,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5905e-41, y: 0, z: 0, w: 1e-45}
+  m_BoundingSphereOverride: {x: 4.5905e-41, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
