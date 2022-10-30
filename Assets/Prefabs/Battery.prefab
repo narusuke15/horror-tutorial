@@ -43,9 +43,11 @@ GameObject:
   - component: {fileID: 6827978930450811305}
   - component: {fileID: 6827978930451628557}
   - component: {fileID: 6827978930452665051}
+  - component: {fileID: 292624400}
+  - component: {fileID: 292624399}
   m_Layer: 0
   m_Name: mesh
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,6 +115,32 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &292624400
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6827978930450522069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 372.9808, y: 666.5854, z: 372.9808}
+  m_Center: {x: 0, y: 333.2927, z: 0}
+--- !u!114 &292624399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6827978930450522069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43f40ed7bc8b5154f9b5a6034641d98c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Flashlight: {fileID: 0}
 --- !u!1 &7121937883308372302
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +185,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 5
+  m_Range: 1
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
